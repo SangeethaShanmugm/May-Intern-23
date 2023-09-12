@@ -1,0 +1,331 @@
+Coding Environment
+> Text Editor => https://code.visualstudio.com/ (Install)
+> NodeJs => https://nodejs.org/en (Install)
+> GitBash =>  https://git-scm.com/downloads (Install)
+> GitHub Link => https://github.com/SangeethaShanmugm (follow)
+
+Github Profile > https://github.com/
+
+I am a software developer. Full stack developer Intern at Edureka. Have knowledge of HTML, CSS, JavaScript, Nodejs, Mongo, Express, React, bootstrap
+I have 2 years of experience in Mainframe technology as a software developer but i want to switch my technology. I am looking for better opportunity.
+
+
+Configure your Git username/email
+------------------------------------
+>>Open the command line.
+>>Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+>>Set your email address: git config --global user.email "MY_NAME@example.com"
+
+
+Application
+-------------
+
+Zomato (your choice) => 40% marks
+Profile Website -portfolio  => 5% marks
+
+Assignment - 15%
+Task - 15%
+
+class performance - 20%
+
+
+Extension for vs code
+> vscode-icon
+> spellcheck
+> Live-Server
+> tabnine
+> gitlens
+> githistory
+
+
+Frontend - 1(website) => static website
+----------------
+HTML  - raw structure- static
+CSS - look and feel(Design) - static
+Bootstrap - Framework
+Javascript  - dynamic
+
+Frontend - 2(web-apps)
+---------------
+
+React - dynamic website
+
+Backend
+-----------
+Node js 
+MongoDB
+
+MERN Full Stack Developer
+MongoDB | Express | React | Nodejs
+
+HTML => shift + 1 => ! => enter
+
+MERN | MEAN | Python | Java
+
+
+Block Level
+-----------------
+> Start with new line
+> Take whole width of screen
+> eg -  div, p, h, section, hr
+
+Inline Level
+---------------
+> Start in the same line
+> Only Take space which is required
+> Eg - span, img, a
+
+
+CSS - Cascading Style Sheet
+------------------------------
+
+3 ways to define CSS
+---------------------
+
+1. inline - style="color: white; background-color: tomato; font-size: 30px; font-family:cursive "
+> style attribute using inside html
+2. Internal Styling - <style></style> => element/tag in <head> tag
+<style>
+body{
+    background-color:red;
+}
+</style>
+
+3.External CSS - <link> element to link external css file
+ <link rel="stylesheet" href="index.css" />
+
+
+ CSS Selector
+ ---------------
+
+ 1. class - group of element = .
+ 2. ID - higher preference - unique element = #
+
+ Position
+ -----------
+
+ static
+ relative
+ absolute
+ fixed
+ sticky
+ 
+
+ display: none and visibility: hidden difference?
+ -----------------------------------------------------
+
+ display: none  => will not occupy space
+ visibility: hidden => will occupy the space
+
+ display: block - text will be visible 
+ visibility: visible => text will be visible 
+
+
+ Flex - one dimensional layout - either rows or column
+
+ Grid -  two dimensional layout - both rows or column
+
+ Bootstrap
+ -------------
+
+ Frontend Framework  - easy and faster
+ Templates - button, form, card, table, image carousels
+
+ Advantages
+ ------------
+
+ Easy to use
+ Responsive
+ Mobile-first approach
+ Browser compatibility
+
+
+JavaScript
+-----------
+
+ECMA Script5 - Es5
+ECMA Script6 - Es6
+
+API => Application program Interface
+
+http methods       meaning
+GET              -> READ
+POST             -> ADDING/INSERT
+PUT              -> UPDATE
+DELETE           -> DELETE
+
+crud - create, read, update, delete
+
+
+
+Package.json
+---------------
+
+> starting point of our app
+> It contains all the package we require
+> It also contains script to run the app
+> Meta data(description of our app)
+
+Steps to generate package.json
+------------------------------
+
+> Node js must be installed in laptop => start => cmd => node -v => to check node version 
+> go inside the folder where you want the node app /go inside folder using cmd
+> npm init -> initialization
+> Answer all the question => just click enter
+> Type "yes
+
+//install mongodb  => https://www.mongodb.com/try/download/community
+> open mongo shell => cmd => mongo
+=> show dbs  => list all db
+=> use ed-may-intern => create and switch to particular dbName
+> db => current dbName
+
+
+MongoDB -> Non - relational Db -> no structure -> wont follow any schema
+---------
+
+Table -> collection
+rows -> document -> {}
+columns -> key,fields
+
+id	name	       artist
+1	Baahubali	prabhas
+1	Baahubali	Anushka
+1	Baahubali	Rana         null
+2	Tennet	        John       null
+2	Tennet	      Robert    tennet@gmail.com
+
+
+[
+  {
+    "id": 1,
+    "name": "Baahubali",
+    "artist": "prabhas"
+  },
+  {
+    "id": 1,
+    "name": "Baahubali",
+    "artist": "Anushka"
+  },
+  {
+    "id": 1,
+    "name": "Baahubali",
+    "artist": "Rana"
+  },
+  {
+    "id": 2,
+    "name": "Tennet",
+    "artist": "John"
+  },
+  {
+    "id": 2,
+    "name": "Tennet",
+    "artist": "Robert"
+  }
+]
+
+>> Schema -> blueprint of your data / table structure
+>> Flexible Schema    =>   normal schema, different key, extra key
+  [
+    {
+    name: "jack",
+    age:20
+  },
+  {
+    name: "John",
+    age:30
+    city:"Bangalore"
+  },
+  {
+    name: "Peter",
+    age:30
+   country:"India"
+  }
+  ]
+  >> mongodb store data in BSON format -> Binary json(smart and efficient way of store)
+  >> retrive -> json format
+
+  React => dynamic web application 
+
+> library => JS (Fb SD => Jordan )
+
+2 types of components
+1. Class component  
+  > Logical component  
+  > Logics like calling api, display, complex Logics
+  > we can maintain the state
+
+  
+2. Functional component
+ > Dumb component
+ > display is only purpose
+ > we cannot maintain a state
+
+Steps to generate react app
+----------------------------
+1. create a folder 
+2. navigate to folder 
+3. npx create-react-app appname
+
+
+react  -> main package 
+react-dom -> help us to display(render) the content in Browser
+react-scripts => this will help us to run the app
+
+
+
+  features
+  ----------
+
+  1. SPA -> Single Page application 
+
+Types of router 
+-----------------
+
+npm i react-router-dom@5.0.0
+
+1. HashRouter  => old Browser => /#
+2. BrowserRouter => new browser -> /
+
+
+class component
+--------------
+
+phases of component 
+--------------------------
+1. initialization => component is just born/created 
+2. mounting => "Jockey mounted on the horse" 
+   =>component insert into DOM
+3. updating => state/props get updated 
+4. unmounting => component is remove from the DOM => router,refresh/reload
+
+life cycle methods in class component
+-------------------------------------
+Mounting
+These methods are called in the following order when an instance of a component is being created and inserted into the DOM:
+
+constructor()
+static getDerivedStateFromProps()
+render()
+componentDidMount()
+
+
+Updating
+An update can be caused by changes to props or state. These methods are called in the following order when a component is being re-rendered:
+
+static getDerivedStateFromProps()
+shouldComponentUpdate()
+render()
+getSnapshotBeforeUpdate()
+componentDidUpdate()
+
+Unmounting
+This method is called when a component is being removed from the DOM:
+
+componentWillUnmount() ✅
+
+componentDidUnmount()  ❌
+
+>> componentWillMount(before compon is going to insert into dom) 
+>> componentDidMount (console.log, fetch() => get data from API)
